@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Betti Discovery: Multi-Agent Algebraic-Topological Invariant Discovery"
+type: software
+authors:
+  - family-names: Goodman
+    given-names: Robert
+    email: rgoodman@apoth3osis.io
+    affiliation: "Equation Capital LLC DBA Apoth3osis"
+version: "0.1.0"
+date-released: "2026-03-12"
+license: "Apoth3osis License Stack v1"
+repository-code: "https://github.com/Abraxas1010/betti-discovery"
+keywords:
+  - algebraic-topology
+  - betti-numbers
+  - euler-characteristic
+  - chain-complex
+  - multi-agent-system
+  - mathematical-discovery
+  - formal-verification
+  - lean4

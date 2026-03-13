@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "betti-discovery"
+version = "0.1.0"
+description = "Multi-agent system for automated discovery of Betti numbers and Euler characteristic from triangulated surface data"
+readme = "README.md"
+license = {text = "Apoth3osis License Stack v1"}
+requires-python = ">=3.11"
+authors = [
+    {name = "Apoth3osis", email = "rgoodman@apoth3osis.io"},
+]
+keywords = [
+    "algebraic-topology",
+    "betti-numbers",
+    "euler-characteristic",
+    "chain-complex",
+    "multi-agent",
+    "symbolic-regression",
+    "mathematical-discovery",
+    "lean4",
+    "formal-verification",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+sr = [
+    "pysr>=0.18",
+]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Abraxas1010/betti-discovery"
+Repository = "https://github.com/Abraxas1010/betti-discovery"
+Issues = "https://github.com/Abraxas1010/betti-discovery/issues"
+
+[tool.setuptools.packages.find]
+include = ["math_discovery*"]
